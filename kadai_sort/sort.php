@@ -19,11 +19,12 @@
                 echo "『降順にソートします。』";
                 rsort($array);
             }
-        return($array);
+              foreach ($array as $value){
+                echo "{$value}<br>";
+                }
         }
-
-        print_r(sort_2way($nums, true));
-                print_r(sort_2way($nums, false));
+        sort_2way($nums, true);
+        sort_2way($nums, false);
         ?>
     </p>
 </body>
