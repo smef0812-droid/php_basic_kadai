@@ -12,14 +12,14 @@
         <table>
          <tr>
           <td>社員名</td>
-          <td><input type="text" name="employee_name" value="a"> </td>
+          <td><input type="text" name="employee_name" value=""> </td>
          </tr>
          <tr>
           <td>年齢</td>
-          <td><input type="number" name="employee_age" value="b"> </td>
+          <td><input type="number" name="employee_age" value=""> </td>
          </tr>
          <tr>
-          <td>所属</td>
+          <td>所属部署</td>
           <td>
           <select name="department">
            <option value="開発部">開発部</option>
